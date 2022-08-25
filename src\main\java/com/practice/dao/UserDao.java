@@ -14,8 +14,7 @@ public class UserDao {
 	}
 
 	public static boolean save(UserModel user) {
-		users.add(user);
-		return true;
+		return users.add(user);
 	}
 
 	public static int getTotalUser() {
