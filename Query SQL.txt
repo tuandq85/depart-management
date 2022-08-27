@@ -1,9 +1,9 @@
-create database quanlyuser;
-USE quanlyuser;
-create table User_Data(
+create database qluser;
+USE qluser;
+create table users(
 	id int auto_increment  not null ,
     fullname nvarchar(256) not null,
-    email varchar(256) not null,
+    age int not null,
     address nvarchar(256) not null,
     primary key(id)
 );
