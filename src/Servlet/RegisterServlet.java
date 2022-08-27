@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.mysql.cj.conf.PropertyDefinitions.DatabaseTerm;
 import com.sun.org.apache.xml.internal.serialize.OutputFormat.DTD;
 
 import DT.User;
